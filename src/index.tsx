@@ -37,19 +37,19 @@ function UuiEnhancedApp() {
                         <MainMenu appLogoUrl={logo}>
                             <MainMenuButton
                                 caption="Start"
-                                link={{ pathname: '/' }}
+                                link={{ pathname: '/vite-expo/' }}
                                 priority={1}
                                 estimatedWidth={72}
                             />
                             <MainMenuButton
                                 caption="Home"
-                                link={{ pathname: '/home' }}
+                                link={{ pathname: '/vite-expo/home' }}
                                 priority={1}
                                 estimatedWidth={72}
                             />
                             <MainMenuButton
                                 caption="Other"
-                                link={{ pathname: '/other' }}
+                                link={{ pathname: '/vite-expo/other' }}
                                 priority={1}
                                 estimatedWidth={72}
                             />

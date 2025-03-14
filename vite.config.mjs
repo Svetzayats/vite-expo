@@ -9,6 +9,7 @@ export default defineConfig({
     },
     plugins: [svgr({}), react()],
     optimizeDeps: {},
+    base: '/vite-expo/',
     test: {
         include: ['**/*.test.tsx'],
         globals: true,
