@@ -8,7 +8,9 @@
     "test": "vitest",
     "test:ci": "vitest run",
     "lint": "eslint ./src/**/*.{ts,tsx} --fix",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@epam/assets": "latest",
@@ -42,5 +44,8 @@
   },
   "resolutions": {
     "@types/react": "18.2.21"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
